@@ -1,5 +1,5 @@
 # express-typescript-configuration
-Simple configuration for express and typescript development
+Simple configuration for express and typescript development and eslint enabled
 # Requirement
 ## Instalasi NodeJS
 Ada beberapa cara untuk menginstall NodeJS, secara umum kamu bisa pilih opsi "general".
@@ -53,11 +53,18 @@ Install typescript dan ts-node
 npm i -G typescript ts-node
 ```
 
+## Instalasi Eslint
+* [Sublime](https://packagecontrol.io/packages/SublimeLinter-eslint)
+* [VSCode](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Vim](https://vimawesome.com/plugin/coc-eslint) (membutuhkan coc-vim)
+
 # Penggunaan
 * Clone projectnya
     ```sh
     git clone https://github.com/AlgobashTeam/express-typescript-configuration.git
     ```
-* Compile typescript dengan ```npm run build```
-* Jalankan program dengan ```npm run start```
+* Compile typescript dengan
+    ```npm run build```
+* Jalankan program dengan
+    ```npm run start```
 * Pergi ke halaman https://localhost:8080
