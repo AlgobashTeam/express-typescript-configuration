@@ -5,6 +5,7 @@ import log4js from 'log4js';
 import errorHandler from 'errorhandler';
 
 import logConf from './config/logger';
+import apiv1 from './routes/apiv1';
 
 /**
  * Create log folder
@@ -28,10 +29,13 @@ function main() {
   const log = log4js.getLogger('main');
   createLogFolder();
 
-  // Routing
+  // App init and global middlewares
   const app = express();
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
+
+  // Routing
+  app.use('/api/v1', apiv1);
   app.get('/', (_, res) => {
     res.json({
       hello: 'world',
