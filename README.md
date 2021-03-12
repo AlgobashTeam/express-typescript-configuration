@@ -2,6 +2,9 @@
 Simple configuration for express and typescript development
 # Requirement
 ## Instalasi NodeJS
+Ada beberapa cara untuk menginstall NodeJS, secara umum kamu bisa pilih opsi "general".
+Atau menggunakan package manager pada windows, mac ataupun linux.
+
 ### General
 * Buka situs [download page nodejs](https://nodejs.org/en/download/)
 * Pilih OS kamu dan unduh filenya
