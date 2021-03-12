@@ -1,0 +1,33 @@
+{
+  "name": "expres-typescript-configuration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Algobash.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/connect": "^3.4.34",
+    "@types/errorhandler": "^1.5.0",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.32",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "log4js": "^6.3.0"
+  }
+}
