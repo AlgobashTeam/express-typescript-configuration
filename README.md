@@ -30,7 +30,7 @@ dari halaman [github](https://github.com/microsoft/winget-cli/releases/latest)
     ```sh
     brew install node
     ```
-#### 2. Menggunakan Node
+#### 2. Menggunakan Node Version Manager (NVM)
 * Kunjungi [repositori nvm](https://github.com/nvm-sh/nvm)
 * Install wget atau curl
     ```sh
